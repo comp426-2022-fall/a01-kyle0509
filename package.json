@@ -1,0 +1,23 @@
+{
+  "name": "a01-kyle0509",
+  "version": "1.0.0",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
+  "main": "sever.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-kyle0509.git"
+  },
+  "author": "kyle0509",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-kyle0509/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-kyle0509#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
